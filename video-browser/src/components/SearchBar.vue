@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="search-input">
     <input @input="onInput"/>
   </div>
 </template>
@@ -17,6 +17,13 @@
 </script>
 
 
-<style>
-
+<style scoped>
+  .search-input {
+    padding: 5px;
+    display: flex;
+  }
+  .search-input input {
+    padding: 5px;
+    flex: 1;
+  }
 </style>
